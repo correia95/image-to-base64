@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0c0c11" />
+  <text x="90" y="140" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="82" font-weight="800" fill="#e9e9f1" letter-spacing="-1">Image to Base64</text>
+  <text x="90" y="192" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="27" fill="#9a95e8">Data URI · &lt;img&gt; tag · CSS background · Markdown · and back</text>
+  <rect x="90" y="250" width="150" height="120" rx="8" fill="none" stroke="#a5a0f8" stroke-width="4" />
+  <circle cx="128" cy="288" r="12" fill="#a5a0f8" />
+  <path d="M98 362l34-34 22 22 16-16 20 20v8H98z" fill="#a5a0f8" />
+  <text x="290" y="330" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="56" fill="#a5a0f8">→</text>
+  <text x="370" y="300" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#a5a0f8">data:image/png;base64,</text>
+  <text x="370" y="338" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#a5a0f8">iVBORw0KGgoAAAANSUhEUg…</text>
+  <text x="90" y="470" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="26" fill="#e9e9f1">Drag &amp; drop · dimensions · size &amp; +33% bloat · copy</text>
+  <text x="90" y="512" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="21" fill="#6c6c7e">The file never leaves your browser · no sign-up · works offline</text>
+</svg>

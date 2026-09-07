@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#4f46e5" />
+
+    <title>Image to Base64 — data URI, &lt;img&gt; tag and CSS</title>
+    <meta
+      name="description"
+      content="Convert an image to a Base64 data URI for HTML, CSS or Markdown, or decode a data URI back to a downloadable image. Shows dimensions, file size and the encoded size increase. The file never leaves your browser."
+    />
+    <link rel="canonical" href="https://image-to-base64.correia95.workers.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Image to Base64" />
+    <meta property="og:description" content="Image → Base64 data URI for HTML/CSS/Markdown, and data URI → image. Size stats, drag & drop. Client-side, no upload." />
+    <meta property="og:url" content="https://image-to-base64.correia95.workers.dev/" />
+    <meta property="og:image" content="https://image-to-base64.correia95.workers.dev/og.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Image to Base64" />
+    <meta name="twitter:description" content="Image → Base64 data URI for HTML/CSS/Markdown, and data URI → image. Size stats, drag & drop. Client-side, no upload." />
+    <meta name="twitter:image" content="https://image-to-base64.correia95.workers.dev/og.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Image to Base64",
+        "url": "https://image-to-base64.correia95.workers.dev/",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Convert an image to a Base64 data URI for HTML, CSS or Markdown, and decode a data URI back to an image, entirely in the browser with no upload."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I convert an image to Base64?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Drop an image onto the box or click to choose one. The tool reads it with the browser's FileReader and shows the Base64 data URI, which you can copy as a raw string, an img tag, a CSS background rule or Markdown."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much bigger does Base64 make an image?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "About 33% larger, because Base64 uses four characters for every three bytes. The tool shows the exact encoded size and percentage increase. Data URIs are best kept for small assets."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the image uploaded to a server?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The image is read and encoded entirely in your browser. Nothing is uploaded and the page works offline once loaded."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I convert Base64 back to an image?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Switch to the \"Base64 → Image\" tab, paste a data URI, and the tool previews the image and offers it as a download."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+      <p style="text-align: center; padding: 20px">
+        This image-to-Base64 tool needs JavaScript. It converts an image to a Base64 data URI for
+        HTML, CSS or Markdown, and back again.
+      </p>
+    </noscript>
+  </body>
+</html>
